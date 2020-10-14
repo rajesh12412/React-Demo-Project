@@ -1,0 +1,295 @@
+@import '~antd/dist/antd.css';
+.App {
+  text-align: center;
+}
+
+
+
+.header-part {
+  min-height: 5rem;
+  background-color: #000;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  padding-top: 20px;
+}
+.yy-1 {
+  width: 100%;
+  /* float: left; */
+}
+.yy-2 {
+  width: 50%;
+  float: right;
+}
+.yy-2 .navbar {
+  float: right;
+}
+
+/* .yy-2 .navbar ul.navbar-nav {
+  width: 100px;
+  float: left;
+} */
+
+.yy-2 .navbar ul.navbar-nav li {
+  width: 100px;
+  float: left;
+}
+
+.select-wrap {
+  padding-left: 22px;
+  font-size: 25px;
+  color: #FFF;
+  font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif";
+  opacity: 87%;
+  color: #FFF;
+  /* padding-top: 22px; */
+  text-align: center;
+}
+.e1 {
+  border: 2px solid #000;
+  height: 100px;
+}
+
+.e2 {
+  padding:10px;
+  width: 70%;
+  float: left;
+}
+.e3 {
+  width: 30%;
+  float: left;
+  position: relative;
+ 
+}
+.e3 a {
+  float: right;
+    position: relative;
+    right: 38px;
+    top: 11px;
+    background-color: #202020;
+    color: #FFF;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.e2 .ant-upload .ant-btn {
+  background-color: #202020;
+  color: #FFF;
+}
+.e2 .ant-upload .ant-btn:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+.vermaji {
+  position: relative;
+  top: 77px;
+  left: -100px;
+  background-color: #202020;
+  color: #FFF;
+}
+.vermaji:hover {
+  background-color: #FFF;
+  color: #000;
+} 
+.ant-popover-inner {
+  width: 300px;
+  position: relative;
+  left: -17px;
+}
+
+.ant-upload .ant-btn {
+  height: 40px;
+}
+.ant-table-body .ant-table-thead th {
+  background: #000;
+  color: #FFF;
+}
+
+.ant-table-body .editable-cell-value-wrap {
+  font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif" !important;
+  font-size: 13px !important;
+  color: #000;  
+}
+
+.ant-upload .ant-btn:hover {
+ background-color: #202020;
+ color: #FFF;
+}
+.g {
+  width:100px; float: left; position: relative; top: 8px; left: 20px;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #696969 !important;
+}
+.ant-table-tbody > tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+footer {
+  min-height: 5rem;
+  background-color: #000;
+  box-shadow: 0 1px 2px #00000026;
+  transition: box-shadow 0.3s ease-in-out;
+
+  bottom: 0;
+  width: 100%;
+}
+.footer-wrap {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    top: 31px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#summary-button {
+  /* // margin-left: 50px; */
+  background-color: #202020;
+  color: #FFF;
+  height: 40px;
+  margin-left: 40px;
+}
+#summary-button:hover {
+  /* // margin-left: 50px; */
+  background-color: #000 !important;
+}
+.j1 {
+  float: right;
+  position: relative;
+  top: -62px;
+}
+.m1 {
+  position: relative;
+  top: 76px;
+  background-color: #202020;
+    color: #FFF;
+}
+.ant-upload.ant-upload-select {
+width: 32%;
+
+}
+#myInput {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #000;
+  margin-bottom: 12px;
+}
+.for-search {
+  margin-bottom: 20px;
+    padding: 10px;
+    background-color: #000;
+    margin-top: 20px;
+}
+.for-search-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: #FFF;
+}
+
+/* node tree strcuture */
+
+.expand-class,
+.collapse-class {
+  background-color: #000 !important;
+  height: 40px;
+  width: 130px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.expand-class:hover,
+.collapse-class:hover {
+  background-color: #505050 !important;
+}
+.button-parent-class {
+  text-align: center;
+  margin-top: 40px;
+}
+.expand-class:hover,
+.collapse-class:hover {
+  background-color: #505050;
+  cursor: pointer;
+  border: none;
+}
+
+.node {
+  cursor: pointer;
+}
+.link-class {
+  background-color: #000 !important;
+  width: 180px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  margin-left: 6px;
+}
+.link-class:hover {
+  background-color: #505050 !important;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.6px;
+}
+
+.node text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.link {
+  fill: none;
+  stroke: purple;
+  stroke-width: 2px;
+}
+div.tooltip {
+  position: absolute;
+  padding: 2px;
+}
+
+/* node tree strcuture */
